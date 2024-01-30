@@ -15,6 +15,6 @@ document.getElementById("expand4").addEventListener("click", (e) => {
     document.getElementById("huey1").classList.toggle("show");
 });
 
-document.getElementById("huey").addEventListener("mousedown", (e) => {
-    window.open("https://wutongwutong00.github.io/nextLevelCode/ShowOff/huey.html");
-});
+// document.getElementById("huey").addEventListener("mousedown", (e) => {
+//     window.open("https://wutongwutong00.github.io/nextLevelCode/ShowOff/huey.html");
+// });
