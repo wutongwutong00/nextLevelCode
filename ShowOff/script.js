@@ -8,9 +8,5 @@ document.getElementById("expand3").addEventListener("click", (e) => {
     document.getElementById("intro3").classList.toggle("show");
 });
 document.getElementById("expand4").addEventListener("click", (e) => {
-    let hueytab = window.open("", "hueywindow", "width=400,height=400");
-    const hueydiv = document.createElement("div");
-    const hueycontent = document.createTextNode("hi huey");
-    hueydiv.appendChild(hueycontent);
-
+    window.open("https:///wutongwutong00.github.io/nextLevelCode/ShowOff/huey.html", "hueywindow", "width=400,height=400");
 });
