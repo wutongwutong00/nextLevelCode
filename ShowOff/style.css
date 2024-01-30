@@ -1,13 +1,15 @@
 @font-face {
     font-family: authenticSans;
-    src: url("/fonts/AUTHENTICSans-90.otf");
+    src: url("./fonts/AUTHENTICSans-90.otf");
 }
 html {
     font-family: authenticSans;
     letter-spacing: -0.01em;
-    line-height: 1em;
+    line-height: 1.1em;
     font-size: 4em;
     background-color: lightgray;
+    display: inline;
+    width: 60vw;
 }
 .expand:hover {
     filter: blur(0.3em);
@@ -18,4 +20,10 @@ html {
 }
 .show {
     display: inline;
+}
+#huey:hover {
+    cursor: grab;
+}
+.names {
+    background-color: yellow;
 }
