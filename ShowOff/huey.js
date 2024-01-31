@@ -32,7 +32,7 @@ document.addEventListener("mousedown", (e) => {
 document.addEventListener("keydown", (e) => {
 	if (e.key === " "){
         console.log('treatime');
-        
+        new Audio('./audio/bite.mp3').play();
         hueyHide.classList.toggle("hueyShow");
         hueyHappy.classList.toggle("hueyShow");
         document.getElementById("text").innerHTML = 'he loves treats :-)';
